@@ -56,13 +56,9 @@ app.decorate("authenticate", async (request, reply) => {
 })
 
 app.register(deneme)
-
 app.register(fastifyCompress)
-
 app.register(fastifyCors)
-
 app.register(fastifyEnv, options)
-
 app.register(fastifyAutoload, {
 	dir: join(import.meta.url, 'routes')
 })
