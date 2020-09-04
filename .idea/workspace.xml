@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c43fb2ca-b054-4020-a87d-d4a4ce64b923" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +95,7 @@
       <workItem from="1599197429835" duration="1256000" />
       <workItem from="1599216592334" duration="1793000" />
       <workItem from="1599218412714" duration="7000" />
-      <workItem from="1599232245205" duration="1218000" />
+      <workItem from="1599232245205" duration="1325000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1599233071007</created>
@@ -104,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599233071007</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="tab size added.">
+      <created>1599233489294</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599233489294</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,7 +130,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="tab size added." />
+    <option name="LAST_COMMIT_MESSAGE" value="tab size added." />
   </component>
   <component name="WindowStateProjectService">
     <state x="341" y="361" key="#SQL_Dialects" timestamp="1599164887780">
@@ -213,9 +221,9 @@
     <state x="629" y="146" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599217069199" />
     <state x="629" y="147" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1599194967490" />
     <state x="629" y="152" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1599233470358" />
-    <state x="553" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599233072619">
+    <state x="553" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599233490564">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="553" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1599233072619" />
+    <state x="553" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1599233490564" />
   </component>
 </project>
