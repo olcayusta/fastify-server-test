@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c43fb2ca-b054-4020-a87d-d4a4ce64b923" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-    </list>
+    <list default="true" id="c43fb2ca-b054-4020-a87d-d4a4ce64b923" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +52,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Other File Types" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.EditorConfig" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
@@ -96,7 +93,7 @@
       <workItem from="1599197429835" duration="1256000" />
       <workItem from="1599216592334" duration="1793000" />
       <workItem from="1599218412714" duration="7000" />
-      <workItem from="1599232245205" duration="1353000" />
+      <workItem from="1599232245205" duration="1528000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1599233071007</created>
@@ -119,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599233593250</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="qqqqq">
+      <created>1599233613973</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599233613973</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,7 +143,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="tab size added." />
-    <option name="LAST_COMMIT_MESSAGE" value="tab size added." />
+    <MESSAGE value="qqqqq" />
+    <option name="LAST_COMMIT_MESSAGE" value="qqqqq" />
   </component>
   <component name="WindowStateProjectService">
     <state x="341" y="361" key="#SQL_Dialects" timestamp="1599164887780">
@@ -223,15 +228,15 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="352" key="GridCell.Tab.2.right/0.0.1920.1050@0.0.1920.1050" timestamp="1599197339186" />
-    <state x="629" y="152" key="SettingsEditor" timestamp="1599233470358">
+    <state x="629" y="152" key="SettingsEditor" timestamp="1599233784858">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="629" y="146" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599217069199" />
     <state x="629" y="147" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1599194967490" />
-    <state x="629" y="152" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1599233470358" />
-    <state x="553" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599233594318">
+    <state x="629" y="152" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1599233784858" />
+    <state x="553" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599233615076">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="553" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1599233594318" />
+    <state x="553" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1599233615076" />
   </component>
 </project>
