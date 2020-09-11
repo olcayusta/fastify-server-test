@@ -1,19 +1,18 @@
 export default async (app, opts) => {
 	app.get('/me', {
 		preValidation: [app.authenticate]
-	}, async (req, res) => {
-		const {rows} = await app.pg.query('select * from "user" where id = $1', [req.user.sub])
+	}, async (req, reply) => {
+		const {rows} = await app.pg.query('SELECT * FROM "user" WHERE id = $1', [req.user.sub])
 		return rows[0]
 	})
 
 	app.get('/unseen_count', {
 		preValidation: [app.authenticate]
-	}, async (req, res) => {
-		const {userId} = req.user.sub
-		const {rows} = await app.pg.query(`select count(*)::integer
-                                       from notification
-                                       where "receiverId" = $1
-                                         and not "isRead"`, [userId])
+	}, async (req, reply) => {
+		const {rows} = await app.pg.query(`SELECT count(*)::INTEGER
+																			 FROM notification
+																			 WHERE "receiverId" = $1
+																				 AND NOT "isRead"`, [req.user.sub])
 		return rows[0].count
 	})
 }

@@ -1,3 +1,5 @@
+import marked from 'marked'
+
 export default async (app, opts) => {
 	app.post('/answers', {
 			preValidation: [app.authenticate]
@@ -5,15 +7,15 @@ export default async (app, opts) => {
 			const {content, questionId} = req.body
 
 			const userId = +req.user.sub
-			const values = [content, userId, questionId]
-			const {rows} = await app.pg.query(`insert into question_answer (content, "userId", "questionId")
-                                     values ($1, $2, $3)
-                                     returning *`, values)
+			const values = [marked.parse(content), userId, questionId]
+			const {rows} = await app.pg.query(`INSERT INTO question_answer (content, "userId", "questionId")
+																				 VALUES ($1, $2, $3)
+																				 RETURNING *`, values)
 
 			// TODO: Send notification to author (refactor)
 			const notificationSql = `select "userId"
-                               from question q
-                               where q.id = $1`
+															 from question q
+															 where q.id = $1`
 			const usersQueryResult = await app.pg.query(notificationSql, [questionId])
 			const uId = usersQueryResult.rows[0]
 			console.log(uId)
