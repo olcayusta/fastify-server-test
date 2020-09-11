@@ -19,19 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c43fb2ca-b054-4020-a87d-d4a4ce64b923" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/811420f8-ca34-44ee-a839-4c1761406582.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/811420f8-ca34-44ee-a839-4c1761406582.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/811420f8-ca34-44ee-a839-4c1761406582/storage_v2/_src_/database/qa_beta.vwqPBA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/811420f8-ca34-44ee-a839-4c1761406582/storage_v2/_src_/database/qa_beta.vwqPBA/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/answer.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/answer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/me.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/me.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/notification.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/notification.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/question.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/question.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-    </list>
+    <list default="true" id="c43fb2ca-b054-4020-a87d-d4a4ce64b923" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,8 +44,9 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="javascript.nodejs.core.library.configured.version" value="14.9.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.6.3" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.10.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.10.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -66,6 +55,7 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -120,6 +110,7 @@
       <workItem from="1599794333566" duration="2441000" />
       <workItem from="1599846351593" duration="1620000" />
       <workItem from="1599853483016" duration="762000" />
+      <workItem from="1599855200987" duration="45000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1599233071007</created>
@@ -163,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599249867669</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added last files...">
+      <created>1599855213370</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1599855213370</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +185,8 @@
     <MESSAGE value="qqqqq" />
     <MESSAGE value="editor config added." />
     <MESSAGE value="remove empty lines" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove empty lines" />
+    <MESSAGE value="added last files..." />
+    <option name="LAST_COMMIT_MESSAGE" value="added last files..." />
   </component>
   <component name="WindowStateProjectService">
     <state x="341" y="361" key="#SQL_Dialects" timestamp="1599164887780">
@@ -206,10 +205,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="956" y="216" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599854158219" />
-    <state x="732" y="272" key="FileChooserDialogImpl" timestamp="1599702375686">
+    <state x="732" y="272" key="FileChooserDialogImpl" timestamp="1599855244712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="732" y="272" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599702375686" />
+    <state x="732" y="272" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599855244712" />
     <state x="732" y="275" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1599197338368" />
     <state x="732" y="282" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1599250606583" />
     <state x="732" y="304" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1599605516637" />
@@ -292,9 +291,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1080@0.0.1920.1080" timestamp="1599246927940" />
-    <state x="553" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599249868884">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="553" y="244" key="Vcs.Push.Dialog.v2" timestamp="1599855214964">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="553" y="244" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599855214964" />
     <state x="553" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1599249868884" />
     <state x="803" y="292" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1599766616665">
       <screen x="0" y="0" width="1920" height="1040" />
